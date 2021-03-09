@@ -5,8 +5,7 @@ body {
 .App {
   text-align: center;
   font-family: 'Courier Prime', monospace;
-  /* background-color: aqua; */
-  /* //background-image: url("https://i.ibb.co/my4VKTb/3ad0601211f6f1150af28aa00a3bb2a1.png"); */
+  
 }
 
 Img {
@@ -16,6 +15,18 @@ Img {
   border-radius:1rem;
   box-shadow:4px;
 
+}
+.words {
+
+  justify-content: center;
+  align-content: center;
+  border: 2px solid black;
+  border-radius: 2rem;
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+  background-color: rgba(128, 0, 0, 0.502);
+  /* width: 500px; */
 }
 
 h1 {
@@ -56,6 +67,10 @@ h3 {
   margin: 2rem;
   padding: 1rem;
   width: 500px;
-  background-color: maroon;
+  background-color: rgba(128, 0, 0, 0.502);
+  /* opacity: 0.5; */
+  color: orange;
+  font-weight: bold;
 
 }
+

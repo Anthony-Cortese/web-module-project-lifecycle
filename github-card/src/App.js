@@ -38,9 +38,12 @@ class App extends Component {
 
     return (
       <div>
+
+        <div className="words">
         <h1>Class Components</h1>
         <h2>Learning The Basics</h2>
         <h3>With My Friends</h3>
+        </div>
         <div className="header">
 
         </div>

@@ -4,7 +4,9 @@ class Card extends Component {
     render() {
         return (
             <div className='card'>
+               <div className="imgCard">
                 <img className="Img" src={this.props.avatar_url} alt="user"/>
+               </div> 
                 <div className='card-info'>
                 <h1>{this.props.login}</h1>
                 <p className='username'> Username: {this.props.login} </p>
