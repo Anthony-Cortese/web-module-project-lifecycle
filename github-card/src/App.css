@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+body {
+  background-image: url("https://i.ibb.co/my4VKTb/3ad0601211f6f1150af28aa00a3bb2a1.png");
+}
+.App {
+  text-align: center;
+  font-family: 'Courier Prime', monospace;
+  /* background-color: aqua; */
+  /* //background-image: url("https://i.ibb.co/my4VKTb/3ad0601211f6f1150af28aa00a3bb2a1.png"); */
+}
+
+Img {
+  max-width:90%;
+  margin:1rem;
+  border: 2px solid black;
+  border-radius:1rem;
+  box-shadow:4px;
+
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier Prime', monospace;
+  color: orange;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier Prime', monospace;
+  color: orange;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: 'Courier Prime', monospace;
+  color: orange;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.container {
+  display: flex;
+}
+
+.card {
+  border: 2px solid black;
+  border-radius: 2rem;
+  text-align: center;
+  margin: 2rem;
+  padding: 1rem;
+  width: 500px;
+  background-color: maroon;
+
+}
